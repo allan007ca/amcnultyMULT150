@@ -13,12 +13,23 @@ public class AudioScript : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetKeyDown(KeyCode.Z))
         {
-            if (audioSource.isPlaying == true)
-                audioSource.Stop();
-            else
-                audioSource.Play();
+            ToggleAudio();
+        }
+    }
+
+    bool ToggleAudio()
+    {
+        if (audioSource.isPlaying)
+        {
+            audioSource.Stop();
+            return false;
+        }
+        else
+        {
+            audioSource.Play();
+            return true;
         }
     }
 }
