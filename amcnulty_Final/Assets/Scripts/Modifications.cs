@@ -59,5 +59,10 @@ https://filterforge.com/filters/10587.jpg
 Audio:
 https://www.myinstants.com/en/instant/homer-drops-his-donut-29546/
 https://www.youtube.com/watch?v=v1lqtZE4n18
+
+Misc:
+https://images.unsplash.com/photo-1530982011887-3cc11cc85693?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8b3JhbmdlJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D for UI
+Added Text in UI
+
 */
 }
